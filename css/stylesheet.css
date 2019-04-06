@@ -1,0 +1,108 @@
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #5c5757;
+    z-index: 0;
+}
+
+.grey {
+    background-color: #363434;
+}
+
+header {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    color: #efecec;
+    font-family: 'Cinzel', serif;
+}
+
+#ptheme {
+    font-family: 'Cinzel', serif;
+}
+
+#p_alt {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4 {
+    text-align: center;
+    padding: 5%;
+}
+
+h5,
+h6 {
+    color: black;
+}
+
+nav {
+
+    background-color: #62929a;
+}
+
+p {
+    color: black;
+}
+
+
+}
+
+#Portfolio {
+    margin: 2%;
+}
+
+#globe_icon {
+    width: 25%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+footer {
+    margin: 0 auto;
+    z-index: 1;
+    background-color: #62929a;
+    text-align: center;
+    color: #efecec;
+    font-family: 'Cinzel', serif;
+    padding-bottom: 5%;
+}
+
+#foot {
+    color: #efecec;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+.schoolicon {
+    height: 70px;
+}
+
+.smallicon {
+    height: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+}
+
+.leftpad {
+    padding-left: 5%;
+}
+
+.leftpad2 {
+    padding-left: 10%;
+}
+
+.buttpad {
+    padding-bottom: 5%;
+}
