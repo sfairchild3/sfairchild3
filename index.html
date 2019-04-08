@@ -12,21 +12,12 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Place your stylesheet here-->
+    <!-- Place your stylesheets here-->
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <script type="text/javascript">
-        $(function() {
-            $("[rel='tooltip']").tooltip();
-        });
-    </script>
-
-    <!-- scripts outside of bootstrap-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/parallax.js"></script>
 </head>
 
 <body>
@@ -79,7 +70,7 @@
 
                 <p id="p_alt">I currently live on a small island in the San Francisco Bay and often think about my place in my community and the challenges we are going to face in the future. I am grateful to have spent the last few years in an industry where making sense of place and creating innovate spatial solutions to these challenges is at its core. I have almost fours years of work experience in Geography, GIS, and cartography and am an aspiring Web Map Applications Developer. </p><br>
 
-                <h1 class="grey">Portfolio</h1>
+                <h1 id="Portfolio" class="grey">Portfolio</h1>
 
             </div>
         </main>
@@ -87,7 +78,7 @@
 
 
     <main role="main" class="container">
-        <div id="Portfolio" class="bd-example buttpad">
+        <div class="bd-example buttpad">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -96,21 +87,21 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <a id="p_alt" href="images/YU.pdf" target="_blank"><img src="images/YU_example-01-01.png" class="d-block w-100" alt="Terrain Map Example" data-toggle="tooltip" title="Terrain Representation Map of Mock Cycling Race. Click to Open"></a>
+                        <a id="p_alt" href="images/YU.pdf" target="_blank"><img src="images/YU-01.png" class="d-block w-100" alt="Terrain Map Example" data-toggle="tooltip" title="Terrain Representation Map of Mock Cycling Race. Click to Open"></a>
                         <div class="carousel-caption d-none d-md-block">
                             <p id="p_alt" class="center">Terrain Representation Map for a mock cycling race. Created for Cartographic Design Class - UW Madison Spring 2019</p>
                             <a id="p_alt" href="images/YU.pdf" target="_blank"><i id="foot" class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <a id="p_alt" href="images/Fairchild_Longform_Infographic.png" target="_blank"> <img src="images/FireInfo_example-01.png" class="d-block w-100" alt="Infographic Example" data-toggle="tooltip" title="Longform Infographic of Fire Risk and Preparedness. Click to Open"></a>
+                        <a id="p_alt" href="images/Fairchild_Longform_Infographic.png" target="_blank"> <img src="images/FireInfo-01.png" class="d-block w-100" alt="Infographic Example" data-toggle="tooltip" title="Longform Infographic of Fire Risk and Preparedness. Click to Open"></a>
                         <div class="carousel-caption d-none d-md-block">
                             <p id="p_alt" class="center">Infographic about Fire Risk and Preparedness. Created for Cartographic Design Class - UW Madison Spring 2019</p>
                             <a id="p_alt" href="images/Fairchild_Longform_Infographic.png" target="_blank"><i id="foot" class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <a id="p_alt" href="images/Alameda%20Chlorpleth.JPG" target="_blank"> <img src="images/Alameda_map-01-01.png" class="d-block w-100" alt="Chloropleth Map" data-toggle="tooltip" title="Chloropleth Map of Access to Jobs Via Public Transit. Click to Open"></a>
+                        <a id="p_alt" href="images/Alameda%20Chlorpleth.JPG" target="_blank"> <img src="images/Alameda_map-01-01-01.png" class="d-block w-100" alt="Chloropleth Map" data-toggle="tooltip" title="Chloropleth Map of Access to Jobs Via Public Transit. Click to Open"></a>
 
                         <div class="carousel-caption d-none d-md-block">
                             <p id="p_alt" class="center">Cloropleth Map showing access to bay area jobs via public transit. Created for Cartography Class - Foothill College Fall 2018</p>
@@ -148,7 +139,7 @@
                                         </ul>
                                     </li><br>
 
-                                    <li class="center"><img src="images/UC_Berkeley_Seal_80px.jpg" alt="University of California Berkeley" class="schoolicon"></span>
+                                    <li class="center"><img src="images/UCB_logo.png" alt="University of California Berkeley" class="schoolicon"></span>
                                         <ul class="list-unstyled">
                                             <li><strong>University of California, Berkeley</strong></li>
                                             <li> B.S Conservation and Resource Studies <br> May 2015 with High Honors</li>
@@ -218,7 +209,6 @@
         </a>
 
 
-
     </footer>
 
 
@@ -228,7 +218,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("[rel='tooltip']").tooltip();
+        });
+    </script>
 
+    <!-- scripts outside of bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
 
 
 </body></html>
